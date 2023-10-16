@@ -23,4 +23,4 @@ if __name__ == "__main__":
     s = Square(side_length=12)
     print(s)
     print(s.area_of_my_square())
-    print(s.permiter_of_my_square())
+    print(s.perimiter_of_my_square())
