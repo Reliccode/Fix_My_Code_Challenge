@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 
 class Square():
+    """ Class representing square"""
 
     width = 0
     height = 0
@@ -14,9 +15,11 @@ class Square():
         return self.width * self.width
 
     def PermiterOfMySquare(self):
+        """Area of perimeter"""
         return (self.width * 2) + (self.height * 2)
 
     def __str__(self):
+        """Self initialize"""
         return "{}/{}".format(self.width, self.height)
 
 
